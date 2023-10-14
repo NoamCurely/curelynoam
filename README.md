@@ -1,2 +1,0 @@
-# curelynoam.github.io
-portfolio
