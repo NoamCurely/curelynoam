@@ -1,0 +1,87 @@
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... }
+
+.contain {
+    height: 80vh;
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+    margin-top: 100px;
+}
+
+.row_profil {
+    justify-content: space-around;
+}
+
+.card_profil {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    background-color: #C4C3F7;
+    width: 30rem;
+}
+
+.profil_image {
+    width: 80%;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 1.5em .5em .5em;
+}
+
+.hr_profil {
+    border: 2px solid black;
+    width: 50px;
+}
+
+.profil_title {
+    font-size: 6rem;
+}
+
+.profil_text {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+    .contain {
+        height: 90vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .contain {
+        height: 70vh;
+    }
+
+    .profil_image {
+        width: 80%;
+    }    
+
+    .card_profil {
+        width: 20rem;
+    }
+    
+    .profil_title {
+        font-size: 5rem;
+    }
+
+    .profil_text {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .profil_image {
+        width: 60%;
+    }
+
+    .card_profil {
+        width: 20rem;
+    }
+
+    .contain {
+        height: 120vh;
+    }
+
+    /* .col_test {
+        margin-left: 35px;
+    } */
+}
