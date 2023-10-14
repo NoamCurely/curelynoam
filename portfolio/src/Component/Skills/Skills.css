@@ -1,0 +1,29 @@
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... }
+
+.icon {
+    color: #868e96;
+    width: 150px;
+    height: 150px;
+}
+
+.contain_skills {
+    margin-top: 100px;
+}
+
+@media (max-width: 1024px) {
+    .icon {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 768px) {
+    .icon {
+        width: 90px;
+        height: 90px;
+    }
+}
