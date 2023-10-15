@@ -42,7 +42,7 @@ import {
 export default function Skills() {
     return (
         <>
-            <Container className="contain_skills">
+            <Container id="skills" className="contain_skills">
                 <Row className="text-center">
                     <Col>
                         <h1 className="fw-light text-white">Compétences</h1>

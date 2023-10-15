@@ -16,7 +16,7 @@ import {
 export default function Social() {
     return (
         <>
-            <div className="social">
+            <div id="social" className="social">
                 <div className="d-flex justify-content-center">
                     <Row className="row-cols-md-4 pt-5">
                         <Col>
