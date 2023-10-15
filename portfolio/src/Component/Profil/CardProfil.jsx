@@ -28,10 +28,10 @@ export default function CardProfil() {
                                     développeur web full stack
                                 </Card.Text>
                                 <div className="d-flex justify-content-center">
-                                    <a href="">
+                                    <a href="https://github.com/NoamCurely">
                                         <AiFillGithub size={40} color="black"/>
                                     </a>
-                                    <a href="">
+                                    <a href="https://www.linkedin.com/in/noam-cur%C3%A9ly/">
                                         <AiFillLinkedin size={40} color="black"/>
                                     </a>
                                 </div>
