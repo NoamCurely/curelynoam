@@ -14,8 +14,7 @@ import "./Profil.css";
 export default function CardProfil() {
     return (
         <>
-            <div id="profil"></div>
-            <Container className="contain">
+            <Container id="profil" className="contain">
                 <Row className="row_profil">
                     <Col className="col-xl-4 col-lg-7 col-md-5 align-self-center mt-5 col_test d-flex justify-content-center">
                         <Card className=" rounded-0 border-0 card_profil">
