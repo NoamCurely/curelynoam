@@ -28,7 +28,7 @@ app.post("/send", (req, res) => {
     var content = `name: ${name} \n lastname: ${lastname} \n email: ${email} \n message: ${message}`
     var mail = {
         from: name,
-        to: "thegamerhub14@gmail.com",
+        to: process.env.USER_MAIL,
         templates: "index",
         subject: "subject",
         text: content
