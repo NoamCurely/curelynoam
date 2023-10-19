@@ -4,7 +4,7 @@
 
 ## Screenshots
 
-![App Screenshot]("./portfolio/src/assets/Screenshot from 2023-10-19 08-31-46.png")
+![App Screenshot]<img src="./portfolio/src/assets/Screenshot from 2023-10-19 08-31-46.png>
 
 
 ## Installation
