@@ -4,7 +4,7 @@
 
 ## Screenshots
 
-![App Screenshot](./portfolio/src/assets/Screenshotfrom2023-10-19 08-31-46.png)
+![App Screenshot](./portfolio/src/assets/Readme.png)
 
 
 ## Installation
