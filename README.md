@@ -19,7 +19,7 @@ Install my-project with npm
     
 ## Tech Stack
 
-**React Js**, **Bootstrap**
+**React Js**, **Bootstrap**, **React-icon**
  
 
 
