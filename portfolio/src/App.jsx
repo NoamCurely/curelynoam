@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './Component/Header/Navbar';
 import CardProfil from './Component/Profil/CardProfil';
 import Skills from './Component/Skills/Skills';
-import Contact from './Component/Contact/Contact';
 import Footer from './Component/Social/Social';
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       <Navbar/>
       <CardProfil/>
       <Skills/>
-      <Contact/>
       <Footer/>
     </>
   )
