@@ -5,13 +5,14 @@
 @include media-breakpoint-up(xxl) { ... }
 
 .contain {
-    height: 80vh;
     background-image: linear-gradient(to right, #9796f0, #fbc7d4);
     margin-top: 100px;
 }
 
 .row_profil {
     justify-content: space-around;
+    height: 100vh;
+    /*100% parent container*/
 }
 
 .card_profil {
@@ -40,22 +41,7 @@
     font-size: 1.5rem;
 }
 
-@media (max-width:1440px) {
-    .contain {
-        height: 85vh;
-    }
-}
-
-@media (max-width: 1024px) {
-    .contain {
-        height: 90vh;
-    }
-}
-
 @media (max-width: 768px) {
-    .contain {
-        height: 70vh;
-    }
 
     .profil_image {
         width: 80%;
@@ -83,8 +69,8 @@
         width: 20rem;
     }
 
-    .contain {
+    /* .contain {
         height: 130vh;
-    }
+    } */
 }
 
