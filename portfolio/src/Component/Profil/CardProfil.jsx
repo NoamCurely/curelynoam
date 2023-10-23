@@ -16,7 +16,7 @@ export default function CardProfil() {
         <>
             <Container id="profil" className="contain">
                 <Row className="row_profil">
-                    <Col className="col-xl-4 col-lg-7 col-md-5 align-self-center mt-5 col_test d-flex justify-content-center">
+                    <Col className="col-xl-4 col-lg-7 col-md-5 align-self-center col_test d-flex justify-content-center">
                         <Card className=" rounded-0 border-0 card_profil">
                             <Card.Img src={picture} className="profil_image"/>
                             <Card.Body>
@@ -38,7 +38,7 @@ export default function CardProfil() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col className="col-xl-4 col-lg-5 col-md-6 align-self-center mt-5">
+                    <Col className="col-xl-4 col-lg-5 col-md-6 align-self-center">
                         <h1 className="text-uppercase fw-bold profil_title">hello</h1>
                         <p className="fs-3 fw-bold text-uppercase">à propos de moi</p>
                         <div>
