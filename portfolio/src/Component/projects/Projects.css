@@ -1,0 +1,29 @@
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... }
+
+.projects {
+    margin-top: 100px;
+}
+
+.card_projects {
+    margin-top: 50px;
+}
+
+.img_repo {
+    height: 150px;
+}
+
+@media (max-width: 1024px) {
+    .img_repo {
+        height: 110px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img_repo {
+        height: 80px;
+    }
+}
